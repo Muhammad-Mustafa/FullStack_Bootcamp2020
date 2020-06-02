@@ -29,4 +29,4 @@ jobs:
     - name: Installing Surge 
       run: sudo npm install --global surge
     - name: Deploying Website First Command ./ path --token ${{ secrets.OBJECT  }}
-      run: surge ./ mustafa-web.surge.sh --token ${{ secrets.TOKEN_SURGE }}
+      run: surge ./ mustafa-web.surge.sh --token ${{ secrets.SUREGE_TOKEN }}
