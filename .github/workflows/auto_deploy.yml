@@ -27,6 +27,6 @@ jobs:
         node_version:  12
     # Runs a set of commands using the runners shell
     - name: Installing Surge 
-      run: npm install --global surge
+      run: sudo npm install --global surge
     - name: Deploying Website First Command ./ path --token ${{ secrets.OBJECT  }}
       run: surge ./ mustafa-web.surge.sh/ --token ${{ secrets.TOKEN_SURGE }}
